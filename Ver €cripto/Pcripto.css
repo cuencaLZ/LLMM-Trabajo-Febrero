@@ -1,0 +1,196 @@
+body{
+	background-size: cover;
+	background-image:url(503.jpg);
+}
+table{
+	border:5px ridge black;
+	width:60%;
+	border-collapse:collapse;
+	text-align: center;
+	margin: 0 auto;
+}
+table td {
+	padding:15px;
+	border: 1px solid black;
+	background-color:White;
+}
+table td:hover:not(.active) {
+    border-bottom:5px solid #FBFF00
+}
+h1 {
+	text-align: center;
+	margin-top:15px;
+	Font-family:Arial Black;	
+}
+div.icono{
+	float:left;
+}
+p {
+	font-weight:bold;
+}
+div.H1 {
+	Font-family:Times New Roman;
+}
+caption {
+	font-size:40px;
+}
+
+	
+
+.desc{
+	width:40%;
+	margin: 0 Auto;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    display: none;
+	border: 3px solid black;
+	padding: 20px 20px;
+	box-shadow: 0px 0px 20px;
+	animation: infinite resplandorAnimation 2s;
+	background-color:#DBC9FF;
+  
+}
+@keyframes resplandorAnimation {
+  0%,100%{
+    box-shadow: 0px 0px 50px #ffc000;
+  }
+  50%{
+  box-shadow: 0px 0px 0px;
+  
+  }
+
+}
+
+div.BIT { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -317.5px -25px;
+}
+div.BS { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -412.5px -25px;
+}
+div.AU { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -220.5px -25px;
+}
+div.AR { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -125px -25px;
+}
+div.DASH { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -702px -25px;
+}
+div.RIP { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -30px -410px;
+}
+div.LIT { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -605px -217.5px;
+}
+div.ET { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -605px -120.5px;
+}
+div.ZC { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -317.5px -505px;
+}
+div.ST { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -317.5px -410px;
+}
+div.SIA { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -125px -410px;
+}
+div.KM { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -510px -217.5px;
+}
+div.NEM { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -412.5px -314px;
+}
+div.NAV { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -317.5px -314.5px;
+}
+div.MR { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -220.5px -314.5px;
+}
+div.PC { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -605px -314.5px;
+}
+div.MS { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -30px -314.5px;
+}
+div.SI { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -510px -410px;
+}
+div.TT { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -702px -410px;
+}
+div.VC { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -125px -505px;
+}
+div.FT { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -702px -120.5px;
+}
+div.GL { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -220.5px -217.5px;
+}
+div.ETC { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -510px -120.5px;
+}
+div.DC { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -25px -120.5px;
+}
+div.CP { 	
+	width: 70px;
+  	height: 65px;
+   	background: url(Pcripto.png) -605px -25px;
+}
+
+
+
+
+	
+
+
