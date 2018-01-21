@@ -5,7 +5,7 @@ function cambiar_color_out(celda){
    celda.style.color="";
    } 
 function Click(celda){
-    for (var k = 1; k < 26; k++){
+    for (var k = 1; k < 28; k++){
         document.getElementById((k).toString()).style.display = "none";
             }
         document.getElementById(celda.attributes["class"].value).style.display = "block";
