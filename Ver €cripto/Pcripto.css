@@ -208,7 +208,7 @@ div.GU {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: #72CE65;
 }
 
 .dropdown-content {
@@ -231,7 +231,8 @@ div.GU {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #72CE65;
+	color:black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -240,15 +241,19 @@ div.GU {
 nav ul {
     margin: 0 auto;
     overflow: auto;	
-    background-color:#343333;	
-    /*Quita este comentario para ver el menú con bordes redondeados: border-radius: 10px; */
+    background-color:#2E272E;	
     padding-bottom: 15px;
+	border:7px double #D4AF37;
+	border-radius:5px;
+	
 }
 
 nav li {
     float: left;
     overflow: auto;
-    margin: 0 4.6%;
+    margin: 5px;
+	margin-right:8%;
+	
 } 
 
 nav a {
@@ -256,13 +261,13 @@ nav a {
     padding: 4px;
     text-decoration: none;
     font-size: 15px;
-    color: white;
-    border: 1px solid white;
+    color: #D4AF37;
+    border: 1px solid #D4AF37;
     border-radius: 5px;	
 }
 
 nav a:hover {
-    background: white;
+    background:#72CE65;
     color: rgb(61, 102, 126);
 }
 
