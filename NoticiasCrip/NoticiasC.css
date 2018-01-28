@@ -145,9 +145,7 @@ a.showLink, a.hideLink {
     text-decoration: none;
     color: #36f;
     padding-left: 8px;
-    background: transparent url('down.gif') no-repeat left; }
-a.hideLink {
-    background: transparent url('up.gif') no-repeat left; }
+   }
 a.showLink:hover, a.hideLink:hover {
     border-bottom: 1px dotted #36f; }
 .more1 {
@@ -158,9 +156,6 @@ a.showLink1, a.hideLink1 {
     text-decoration: none;
     color: #36f;
     padding-left: 8px;
-    background: transparent url('down.gif') no-repeat left; }
-a.hideLink1 {
-    background: transparent url('up.gif') no-repeat left; }
 a.showLink1:hover, a.hideLink1:hover {
     border-bottom: 1px dotted #36f; }
 .more2 {
@@ -171,9 +166,7 @@ a.showLink2, a.hideLink2 {
     text-decoration: none;
     color: #36f;
     padding-left: 8px;
-    background: transparent url('down.gif') no-repeat left; }
-a.hideLink2 {
-    background: transparent url('up.gif') no-repeat left; }
+}
 a.showLink2:hover, a.hideLink2:hover {
     border-bottom: 1px dotted #36f; }
 .more3 {
@@ -184,8 +177,6 @@ a.showLink3, a.hideLink3 {
     text-decoration: none;
     color: #36f;
     padding-left: 8px;
-    background: transparent url('down.gif') no-repeat left; }
-a.hideLin3 {
-    background: transparent url('up.gif') no-repeat left; }
+ }
 a.showLink3:hover, a.hideLink3:hover {
     border-bottom: 1px dotted #36f; }
