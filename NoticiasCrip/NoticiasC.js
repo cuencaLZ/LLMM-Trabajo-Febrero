@@ -1,17 +1,10 @@
-window.onload=function(){
-    var myInf = document.getElementById('inf');
-
-    myInf.onclick = function(){
-        var section = document.getElementsByClassName('inf');
-        for (i=0;i<section.length;i++){
-            if (section[i].style.display =='block'){
-                section[i].style.display = 'none';
-                document.getElementById("inf").innerHTML="Leer Mas"
-            }
-            else{
-                section[i].style.display = 'none';
-            }
-        }
-    }
+function read_more() {
+    document.getElementById('text1_oculto').style.display = 'block';
 }
 
+document.getElementById('leer_mas1').addEventListener('click', read_more);
+ 
+
+
+    
+    
