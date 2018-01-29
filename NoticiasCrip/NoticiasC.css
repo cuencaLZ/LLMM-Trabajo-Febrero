@@ -156,6 +156,7 @@ a.showLink1, a.hideLink1 {
     text-decoration: none;
     color: #36f;
     padding-left: 8px;
+}
 a.showLink1:hover, a.hideLink1:hover {
     border-bottom: 1px dotted #36f; }
 .more2 {
