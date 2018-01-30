@@ -181,3 +181,7 @@ a.showLink3, a.hideLink3 {
  }
 a.showLink3:hover, a.hideLink3:hover {
     border-bottom: 1px dotted #36f; }
+img {
+    width: 51%;
+    height: 40%;
+}
