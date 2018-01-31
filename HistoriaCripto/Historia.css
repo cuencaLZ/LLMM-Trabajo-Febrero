@@ -2,17 +2,11 @@ body{
 	background-size: cover;
 	background-image:url(https://iyanovich.files.wordpress.com/2010/04/blank.jpg);
 }
-h1 {
-    font-family:"Arial Black", Gadget, sans-serif;
+h1  {
     text-align: center;
 }
-article{
-    width: 45%;
-    border: #000 solid;
-    text-align: center;
-    float: left;
-    margin:1%;
-    background-image:url(https://artepoli.com/wp-content/uploads/2015/03/fondo-periodico-201.jpg);
+main {
+    width: 80%;
 }
 .navbar {
     overflow: hidden;
@@ -137,53 +131,74 @@ nav a:hover {
         background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
         padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
-.more {
-    display: none;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666; }
-a.showLink, a.hideLink {
-    text-decoration: none;
-    color: #36f;
-    padding-left: 8px;
-   }
-a.showLink:hover, a.hideLink:hover {
-    border-bottom: 1px dotted #36f; }
-.more1 {
-    display: none;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666; }
-a.showLink1, a.hideLink1 {
-    text-decoration: none;
-    color: #36f;
-    padding-left: 8px;
+article {
+    border: solid black 3px;
+    margin:1%;
+    padding: 3px;
+    text-align: justify;
 }
-a.showLink1:hover, a.hideLink1:hover {
-    border-bottom: 1px dotted #36f; }
-.more2 {
-    display: none;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666; }
-a.showLink2, a.hideLink2 {
-    text-decoration: none;
-    color: #36f;
-    padding-left: 8px;
+.PrimeraM img {
+    width: 8%;
+    height: auto;
+    float: right;
+    margin: 3px;
 }
-a.showLink2:hover, a.hideLink2:hover {
-    border-bottom: 1px dotted #36f; }
-.more3 {
-    display: none;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666; }
-a.showLink3, a.hideLink3 {
-    text-decoration: none;
-    color: #36f;
-    padding-left: 8px;
- }
-a.showLink3:hover, a.hideLink3:hover {
-    border-bottom: 1px dotted #36f; }
-img {
-    width: 51%;
-    height: 40%;
+.Actualmente img{
+    width: 60%;
+    height: auto;
+    margin: 3px;
+    margin-left: 20%;
+    
+}
+.BarraLateral{
+    float:right;
+    position: fixed;
+    left:77.5%;
+    top:28%;
+    width:17%;
+    margin-left:2%;
+    border:8px double rgb(60, 117, 60);
+    background-color: rgb(136, 98, 67);
+    
+    
+}
+
+#ulLateral{
+    list-style: none;
+    padding-left: 0;
+}
+.BarraLateral h3{
+   text-align: center;
+   color:white;
+}
+
+#ulLateral li {
+    padding:0.5em;
+    margin:0.5em;
+    border-style:solid;
+    text-align: center;
+    border-radius:1em;
+
+}
+
+#ulLateral li a{
+
+    text-decoration-line:none;
+    color: white;
+    
+
+}
+
+#ulLateral li:hover{
+    background-color: white;
+    
+}
+#ulLateral li:hover a{
+
+color:rgb(90, 129, 173);
+}
+article:hover {
+    border-color: rgb(255, 0, 221)
 }
 .active {
     background-color: #D4AF37;
