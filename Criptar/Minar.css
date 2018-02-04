@@ -12,6 +12,8 @@ main {
 }
 iframe {
    margin-left: 25%;
+   width: 40vw;
+   height:50vh;
 }
 
 img{
@@ -22,7 +24,7 @@ img{
 p img{
     float: left;
     margin-left: 0;
-    margin: 6px;
+    margin: 1%;
     height:18%;
 }
 .navbar {
@@ -111,7 +113,7 @@ nav a:hover {
 /*Redes sociales:*/
 .social {
     position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-    right: 20px; /* Establecemos la barra en la izquierda */
+    right: 0.5%; /* Establecemos la barra en la izquierda */
     bottom: 0; 
     z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }

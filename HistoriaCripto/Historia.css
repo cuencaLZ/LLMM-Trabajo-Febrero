@@ -134,19 +134,19 @@ nav a:hover {
 article {
     border: solid black 3px;
     margin:1%;
-    padding: 3px;
+    padding: 0.5%;
     text-align: justify;
 }
 .PrimeraM img {
     width: 8%;
     height: auto;
     float: right;
-    margin: 3px;
+    margin: 0.5%;
 }
 .Actualmente img{
     width: 60%;
     height: auto;
-    margin: 3px;
+    margin: 0.5%;
     margin-left: 20%;
     
 }
@@ -189,14 +189,6 @@ article {
 
 }
 
-#ulLateral li:hover{
-    background-color: white;
-    
-}
-#ulLateral li:hover a{
-
-color:rgb(90, 129, 173);
-}
 article:hover {
     border-color: rgb(255, 0, 221)
 }

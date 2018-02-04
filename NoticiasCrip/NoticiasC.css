@@ -7,13 +7,13 @@ h1 {
     text-align: center;
 }
 article{
-        position:relative;
+        position: relative;
         display:inline-block;
         width: 45%;
         border: #000 solid;
         text-align: center;
         margin:1%;
-        background-image:url(https://artepoli.com/wp-content/uploads/2015/03/fondo-periodico-201.jpg););
+        background-image:url(https://artepoli.com/wp-content/uploads/2015/03/fondo-periodico-201.jpg);
 }
 .navbar {
     overflow: hidden;
