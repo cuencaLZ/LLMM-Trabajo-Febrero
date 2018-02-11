@@ -30,47 +30,52 @@
             </nav>                             
         </header>
         <main>
-		<div class="calculadora">
-	<form name="f1">
-		<h2>CALCULADORA</h2>
-		<br>
-		<input type="text" name="txtcaja1">
-		<br>
-		<input type="text" name="txtcaja2" value="0">
-		<br>
-		<input type="button" class="clear" onClick="document.f1.txtcaja2.value='0'" value="CE">
-		<input type="button" class="clear" onClick="document.f1.reset(); blocdel = false;" value="C"> 
-		<input type="button" class="arit" onClick="arit('/')" value="÷">
-		<br>
-		<input type="button" onclick="escribir(this.value)" value="7">
-		<input type="button" onclick="escribir(this.value)" value="8">
-		<input type="button" onclick="escribir(this.value)" value="9">
-		<input type="button" class="arit" onClick="arit('*')" value="×">
-		<br>
-		<input type="button" onclick="escribir(this.value)" value="4">
-		<input type="button" onclick="escribir(this.value)" value="5">
-		<input type="button" onclick="escribir(this.value)" value="6">
-		<input type="button" class="arit" onClick="arit('-')" value="-">
-		<br>
-		<input type="button" onclick="escribir(this.value)" value="1">
-		<input type="button" onclick="escribir(this.value)" value="2">
-		<input type="button" onclick="escribir(this.value)" value="3">
-		<input type="button" class="arit" onClick="arit('+')" value="+">
-		<br>
-		<input type="button" class="arit" onClick="masmenos()" value="±">
-		<input type="button" onclick="escribir(this.value)" value="0">
-		<input type="button" onClick="escribir('.')" value=".">
-		<input type="button" class="igual" onClick="calcular()" value="=">
-	</form>
-	</div>
+			<section>
+				<div class="calculadora">
+					<form name="f1">
+						<h2>CALCULADORA</h2>
+						<br>
+						<input type="text" name="txtcaja1">
+						<br>
+						<input type="text" name="txtcaja2" value="0">
+						<br>
+						<input type="button" class="clear" onClick="document.f1.txtcaja2.value='0'" value="CE">
+						<input type="button" class="clear" onClick="document.f1.reset(); blocdel = false;" value="C"> 
+						<input type="button" class="arit" onClick="arit('/')" value="÷">
+						<br>
+						<input type="button" onclick="escribir(this.value)" value="7">
+						<input type="button" onclick="escribir(this.value)" value="8">
+						<input type="button" onclick="escribir(this.value)" value="9">
+						<input type="button" class="arit" onClick="arit('*')" value="×">
+						<br>
+						<input type="button" onclick="escribir(this.value)" value="4">
+						<input type="button" onclick="escribir(this.value)" value="5">
+						<input type="button" onclick="escribir(this.value)" value="6">
+						<input type="button" class="arit" onClick="arit('-')" value="-">
+						<br>
+						<input type="button" onclick="escribir(this.value)" value="1">
+						<input type="button" onclick="escribir(this.value)" value="2">
+						<input type="button" onclick="escribir(this.value)" value="3">
+						<input type="button" class="arit" onClick="arit('+')" value="+">
+						<br>
+						<input type="button" class="arit" onClick="masmenos()" value="±">
+						<input type="button" onclick="escribir(this.value)" value="0">
+						<input type="button" onClick="escribir('.')" value=".">
+						<input type="button" class="igual" onClick="calcular()" value="=">
+					</form>
+				</div>
+			</section>
 		</main>	
-            <div class="social">
-                <ul>
-                    <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook">Facebook</a></li>
-                    <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter">Twitter</a></li>
-                    <li><a href="http://www.googleplus.com/" target="_blank" class="icon-googleplus">Google+</a></li>
-                    <li><a href="http://www.pinterest.com/" target="_blank" class="icon-pinterest">Pinterest</a></li>
-                </ul>
-            </div>
-        </body>
-    </html>
+         <aside>
+			<div class="social">
+				<ul>
+					<li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook">Facebook</a></li>
+					<li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter">Twitter</a></li>
+					<li><a href="http://www.googleplus.com/" target="_blank" class="icon-googleplus">Google+</a></li>
+					<li><a href="http://www.pinterest.com/" target="_blank" class="icon-pinterest">Pinterest</a></li>
+				</ul>
+			</div>
+		</aside>
+	</body>
+</html>
+
